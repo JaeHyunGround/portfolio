@@ -60,7 +60,7 @@ const Projects = () => {
                 </S.ProjectWrapper>
                 <S.ProjectWrapper onClick={onShinjoeo}>
                     <div><b>신조어도감</b></div>
-                    <div>MZ세대의 문화가 빠르게 변화함에 따라 신조어 트렌드를 한눈에 확인할 수 있는<br /> 도감 서비스</div>
+                    <div>MZ세대의 문화가 빠르게 변화함에 따라 신조어 트렌드를 한눈에 확인할 수 있는 도감 서비스</div>
                     <div>멋쟁이사자처럼 10기 대구/경북 연합 해커톤 프로젝트</div>
                 </S.ProjectWrapper>
             </section>
