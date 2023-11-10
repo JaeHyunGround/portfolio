@@ -1,0 +1,21 @@
+.Info {
+    width: 90%;
+    margin: 0 auto;
+    .Info__my-info {
+        font-size: 20px;
+        line-height: 40px;
+        div {
+            font-weight: 300;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+    .Info__introduce {
+        margin: 20% 0 20% 0;
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+        word-break: keep-all;
+    }
+}
