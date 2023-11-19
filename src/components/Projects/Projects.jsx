@@ -50,7 +50,7 @@ const Projects = () => {
                 </S.ProjectWrapper>
                 <S.ProjectWrapper onClick={onKumoh}>
                     <div><b>금오공과대학교 신입생 환영회 & 동아리 박람회 안내 페이지</b></div>
-                    <div>교내에서 처음 제작된 행사 안내 페이지</div>
+                    <div>교내 첫 행사 안내 페이지</div>
                     <div>멋쟁이사자처럼 11기 금오공과대학교에서 진행한 프로젝트</div>
                 </S.ProjectWrapper>
                 <S.ProjectWrapper onClick={onReact}>

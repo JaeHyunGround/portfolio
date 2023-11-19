@@ -1,9 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./Main.scss";
+import ReactPlayer from 'react-player'
+import styled from 'styled-components'
 
 const Main = () => {
+
+
+    const ReactPlayerWrapper = styled.div`
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        pointer-events: none;
+        transform: scale(1.5);
+        opacity: 0.5;
+    `
+
     return (
         <main className='Main'>
+            <ReactPlayerWrapper>
+                <ReactPlayer url='https://www.youtube.com/watch?v=lTRiuFIWV54&t=1693s'
+                    width="100vw"
+                    height="100vh"
+                    loop={true}
+                    muted={true}
+                    controls={false}
+                    playing={true}
+                    />
+            </ReactPlayerWrapper>
             <section className='Main__title'>
                 <div className='title'>REX</div>
                 <div className='title'>AHN<br/>JAEHYUN</div>
