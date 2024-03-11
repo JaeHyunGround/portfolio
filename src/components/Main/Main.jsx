@@ -28,7 +28,7 @@ const Main = () => {
           blog
         </a>
         <a
-          href="https://my.surfit.io/w/713607235"
+          href="https://www.rallit.com/resumes/1060112@gothddkej/%EC%95%88%EC%9E%AC%ED%98%84?theme=MODERN"
           target="_blank"
           rel="noopener noreferrer"
         >
