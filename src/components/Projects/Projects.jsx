@@ -57,11 +57,7 @@ const Projects = () => {
           <div>
             <b>kiwing</b>
           </div>
-          <div>
-            취업 준비생, 이직생들이 마주한 면접과정을 준비하는 데에 도움이
-            되고자 면접을 효율적이고 빠르게 준비할 수 있는 기능을 제공하는
-            서비스
-          </div>
+          <div>면접 대비를 위한 질문 & 질문 꾸러미 저장소</div>
           <div>프로그래머스 데브코스 프론트엔드 5기 최종 프로젝트</div>
         </S.ProjectWrapper>
         <S.ProjectWrapper onClick={onDopen}>
@@ -69,8 +65,7 @@ const Projects = () => {
             <b>dopen</b>
           </div>
           <div>
-            타이머를 이용해 공부 시간을 측정할 수 있고, 하루 회고를 통하여
-            나만의 공부 잔디를 심을 수 있는 서비스
+            하루 공부 회고를 통하여 나만의 공부 잔디를 심을 수 있는 서비스
           </div>
           <div>프로그래머스 데브코스 프론트엔드 5기 1차 프로젝트</div>
         </S.ProjectWrapper>
