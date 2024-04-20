@@ -28,7 +28,7 @@ const Main = () => {
           blog
         </a>
         <a
-          href="https://www.rallit.com/resumes/1060112@gothddkej/%EC%95%88%EC%9E%AC%ED%98%84?theme=MINT_SORBET"
+          href="https://www.rallit.com/hub/resumes/1060112/%EC%95%88%EC%9E%AC%ED%98%84"
           target="_blank"
           rel="noopener noreferrer"
         >
