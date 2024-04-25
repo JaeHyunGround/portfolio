@@ -1,49 +1,51 @@
 .Activities {
-    width: auto;
-    margin: 0 auto 15% auto;
-    display: flex;
-    flex-direction: column;
-    // align-items: center;
-    .Activities__title {
-        margin-bottom: 10%;
-        position: relative;
-        font-size: 100px;
-        color: transparent;
-        -webkit-text-stroke: 0.1rem rgb(255, 255, 255);
-        &::before {
-            content: "Activities";
-            position: absolute;
-            left: 5px;
-            top: 5px;
-            -webkit-text-stroke: 0.1rem rgb(62, 255, 255);
-            opacity: 0.7;
-        }
-        &::after {
-            content: "Activities";
-            position: absolute;
-            left: -5px;
-            top: -5px;
-            -webkit-text-stroke: 0.1rem rgb(255, 94, 94);
-            opacity: 0.7;
-        }
+  width: auto;
+  margin: 0 auto 15% auto;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  .Activities__title {
+    margin-bottom: 10%;
+    position: relative;
+    font-size: 100px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(beige, #ffc0cb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    // &::before {
+    //   content: "Activities";
+    //   position: absolute;
+    //   left: 5px;
+    //   top: 5px;
+    //   -webkit-text-stroke: 0.1rem beige;
+    //   opacity: 0.7;
+    // }
+    // &::after {
+    //   content: "Activities";
+    //   position: absolute;
+    //   left: -5px;
+    //   top: -5px;
+    //   -webkit-text-stroke: 0.1rem #ffc0cb;
+    //   opacity: 0.7;
+    // }
+  }
+  .Activities__title--list {
+    .Activities__title--item {
+      display: flex;
+      flex-direction: column;
+      cursor: default;
+      .Activities__title--item-name {
+        font-size: 20px;
+        font-weight: 900;
+      }
+      .Activities__title--item-detail {
+        margin: 3% 0 3% 0;
+        font-size: 18px;
+      }
+      .Activities__title--item-date {
+        margin-bottom: 5%;
+        text-align: right;
+      }
     }
-    .Activities__title--list {
-        .Activities__title--item {
-            display: flex;
-            flex-direction: column;
-            cursor: default;
-            .Activities__title--item-name {
-                font-size: 20px;
-                font-weight: 900;
-            }
-            .Activities__title--item-detail {
-                margin: 3% 0 3% 0;
-                font-size: 18px;
-            }
-            .Activities__title--item-date {
-                margin-bottom: 5%;
-                text-align: right;
-            }
-        }
-    }
+  }
 }
